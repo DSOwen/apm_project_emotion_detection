@@ -59,3 +59,5 @@ Other features that can be extracted are Zero Crossing Rate, Spectral Centroid a
 We have run different models like XGBoost, Support Vector Machines, Convolution Neural Network, and Recurrent Neural Networks on the existing and manually engineered features present in audio and video information.
 
 Since our dataset has only ~7000 observations, we could find a pretrained model on a similar problem and then implement transfer learning. We will also look at several audio augmentation techniques like Changing Pitch, Noise Injection and Shifting Time to expand our dataset.
+
+Trained CNN model weights can be stored in .h5 files created by the Keras Python package. These files can vary in size from 2-800 Mb, far beyond the storage limits of Git. Instead, they can be found at this dropbox link: https://www.dropbox.com/sh/29soflhyqra5qfi/AACE6L0D6ygSDDYq3c9syYLga?dl=0
